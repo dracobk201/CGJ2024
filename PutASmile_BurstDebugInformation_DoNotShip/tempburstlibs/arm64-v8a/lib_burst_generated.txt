@@ -24,6 +24,7 @@ Library: G:\Documents\GameProjects\CGJ2024\Temp\BurstOutput\tempburstlibs\arm64-
 --assembly-defines=Unity.InputSystem.ForUI;
 --assembly-defines=Unity.InternalAPIEngineBridge.001;
 --assembly-defines=Unity.Mathematics;
+--assembly-defines=Unity.TextMeshPro;
 --assembly-defines=UnityEngine;
 --generate-link-xml=Temp\burst.link.xml
 --temp-folder=G:\Documents\GameProjects\CGJ2024\Temp\Burst
