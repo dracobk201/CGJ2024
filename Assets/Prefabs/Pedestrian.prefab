@@ -27,7 +27,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 4602183912886538346}
@@ -73,7 +73,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
+  m_Sprite: {fileID: -645717850, guid: 11f4aaef222c03b4c801e9a5fb4070d7, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -96,6 +96,7 @@ GameObject:
   - component: {fileID: 5772556299808431172}
   - component: {fileID: 3567670491283315028}
   - component: {fileID: 4995601137853151211}
+  - component: {fileID: 4498486686037832245}
   m_Layer: 7
   m_Name: Pedestrian
   m_TagString: Pedestrian
@@ -144,7 +145,7 @@ MonoBehaviour:
     _constantValue: 0
     _variable: {fileID: 11400000, guid: 8e58cdec009cc8b4784fa7a516a37c56, type: 2}
   pedestrianSpriteRenderer: {fileID: 2708930346533012801}
-  pedestrianAnimator: {fileID: 0}
+  pedestrianAnimator: {fileID: 4498486686037832245}
   pedestrianCollider: {fileID: 4995601137853151211}
 --- !u!114 &3567670491283315028
 MonoBehaviour:
@@ -215,3 +216,24 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.5, y: 0.5}
   m_EdgeRadius: 0
+--- !u!95 &4498486686037832245
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5006417527196386504}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: f0f8086e7105b5a4f9dfd3f2518b87df, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0

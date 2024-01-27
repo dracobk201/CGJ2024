@@ -39,21 +39,21 @@ public class PedestrianFunness : MonoBehaviour
             {
                 if (pedestrianAnimator == null) return;
                 pedestrianAnimator.SetBool(Global.FirstStatePedestrian, true);
-                pedestrianAnimator.SetBool(Global.SecondStatePedestrian, false);
-                pedestrianAnimator.SetBool(Global.ThirdStatePedestrian, false);
+                //pedestrianAnimator.SetBool(Global.SecondStatePedestrian, false);
+                //pedestrianAnimator.SetBool(Global.ThirdStatePedestrian, false);
             }
             else if (currentPercentage <= 0.8f && currentPercentage >= 0.4f)
             {
                 if (pedestrianAnimator == null) return;
-                pedestrianAnimator.SetBool(Global.FirstStatePedestrian, false);
+                pedestrianAnimator.SetBool(Global.FirstStatePedestrian, true);
                 pedestrianAnimator.SetBool(Global.SecondStatePedestrian, true);
-                pedestrianAnimator.SetBool(Global.ThirdStatePedestrian, false);
+                //pedestrianAnimator.SetBool(Global.ThirdStatePedestrian, false);
             }
             else if (currentPercentage <= 0.4f && currentPercentage >= 0f)
             {
                 if (pedestrianAnimator == null) return;
-                pedestrianAnimator.SetBool(Global.FirstStatePedestrian, false);
-                pedestrianAnimator.SetBool(Global.SecondStatePedestrian, false);
+                pedestrianAnimator.SetBool(Global.FirstStatePedestrian, true);
+                pedestrianAnimator.SetBool(Global.SecondStatePedestrian, true);
                 pedestrianAnimator.SetBool(Global.ThirdStatePedestrian, true);
             }
             else if (currentPercentage <= 0)
