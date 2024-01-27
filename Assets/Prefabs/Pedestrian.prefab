@@ -144,6 +144,8 @@ MonoBehaviour:
     _constantValue: 0
     _variable: {fileID: 11400000, guid: 8e58cdec009cc8b4784fa7a516a37c56, type: 2}
   pedestrianSpriteRenderer: {fileID: 2708930346533012801}
+  pedestrianAnimator: {fileID: 0}
+  pedestrianCollider: {fileID: 4995601137853151211}
 --- !u!114 &3567670491283315028
 MonoBehaviour:
   m_ObjectHideFlags: 0
