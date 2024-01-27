@@ -28,4 +28,13 @@ public class Bullet : MonoBehaviour
         yield return new WaitForSeconds(bulletTimeOfLife.Value);
         Destroy();
     }
+
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        string targetTag = other.tag;
+        if (targetTag.Equals(Global.PedestrianTag))
+        {
+            Destroy();
+        }
+    }
 }
