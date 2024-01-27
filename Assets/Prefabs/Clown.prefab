@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 7754810103590876451}
   - component: {fileID: 6977115644418648813}
   m_Layer: 0
-  m_Name: Player
+  m_Name: Clown
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -66,11 +66,11 @@ MonoBehaviour:
     _useConstant: 0
     _constantValue: 0
     _variable: {fileID: 11400000, guid: 98608602df2a91443b682368845d8479, type: 2}
-  RPM:
+  bulletRPM:
     _useConstant: 0
     _constantValue: 0
     _variable: {fileID: 11400000, guid: 203a2eb21ab40ca48945532b17ce6f1a, type: 2}
-  playerBullets: {fileID: 11400000, guid: e6af9a4e8f3439349b525d3d29fe752e, type: 2}
+  clownBullets: {fileID: 11400000, guid: e6af9a4e8f3439349b525d3d29fe752e, type: 2}
 --- !u!212 &6977115644418648813
 SpriteRenderer:
   m_ObjectHideFlags: 0
