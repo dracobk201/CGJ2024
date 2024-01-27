@@ -1,0 +1,79 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7538033733069506795
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7037003617372086145}
+  - component: {fileID: 3152743758074629245}
+  m_Layer: 0
+  m_Name: Wave Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7037003617372086145
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7538033733069506795}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3152743758074629245
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7538033733069506795}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d596d1eb825dce8448b2fefc8b53f16d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentWave:
+    _useConstant: 0
+    _constantValue: 0
+    _variable: {fileID: 11400000, guid: 77e82aee5d65263459827234e498df21, type: 2}
+  initialPedestrianToSend:
+    _useConstant: 0
+    _constantValue: 0
+    _variable: {fileID: 11400000, guid: bde9bd5fafe93644089aa6a77d77a0fd, type: 2}
+  pedestrianStepToSend:
+    _useConstant: 0
+    _constantValue: 0
+    _variable: {fileID: 11400000, guid: b46628d1692b27a47bcf18bcdb05583a, type: 2}
+  remainingPedestrian:
+    _useConstant: 0
+    _constantValue: 0
+    _variable: {fileID: 11400000, guid: fe7491f0e7bf7a64098849ba06e269bd, type: 2}
+  initialTimeToSend:
+    _useConstant: 0
+    _constantValue: 0
+    _variable: {fileID: 11400000, guid: cc977a6d09fd0c84f96b8ed668ae4019, type: 2}
+  initialStepTime:
+    _useConstant: 0
+    _constantValue: 0
+    _variable: {fileID: 11400000, guid: eef16547b4d3bc44abc477785c45b9d2, type: 2}
+  sendPedestrian: {fileID: 11400000, guid: a19ebf7f81854cb4c9b4dd5d0777600d, type: 2}
+  currentPedestrianToSend:
+    _useConstant: 0
+    _constantValue: 0
+    _variable: {fileID: 11400000, guid: b635ff77bd2082146baac3846598b0b2, type: 2}
+  currentTimeToSend:
+    _useConstant: 0
+    _constantValue: 0
+    _variable: {fileID: 11400000, guid: 0bacf76e317fc6d45a6b072b039dc77f, type: 2}

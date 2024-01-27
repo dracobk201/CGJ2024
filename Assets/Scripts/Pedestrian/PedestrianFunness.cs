@@ -3,6 +3,8 @@ using UnityEngine;
 
 public class PedestrianFunness : MonoBehaviour
 {
+    [SerializeField] private BoolReference debugMode;
+    [SerializeField] private IntReference remainingPedestrian;
     [SerializeField] private IntReference funnessThreshold;
     [SerializeField] private SpriteRenderer pedestrianSpriteRenderer;
     private bool pedestrianHappy;
@@ -16,8 +18,10 @@ public class PedestrianFunness : MonoBehaviour
 
     private void Update()
     {
-        Debug.Log((float)currentFunness / funnessThreshold.Value);
-        pedestrianSpriteRenderer.color = Color.Lerp(Color.red, Color.blue, (float)currentFunness / funnessThreshold.Value);
+        if (debugMode.Value)
+        {
+            pedestrianSpriteRenderer.color = Color.Lerp(Color.red, Color.blue, (float)currentFunness / funnessThreshold.Value);
+        }
     }
 
     private void OnTriggerEnter2D(Collider2D other)
@@ -29,6 +33,7 @@ public class PedestrianFunness : MonoBehaviour
             if (currentFunness <= 0)
             {
                 pedestrianHappy = true;
+                remainingPedestrian.Value = Mathf.Clamp(remainingPedestrian.Value - 1, 0, 9999);
             }
         }
     }

@@ -131,6 +131,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 00e143b1ba55f864da046e690ccbf007, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  debugMode:
+    _useConstant: 0
+    _constantValue: 0
+    _variable: {fileID: 11400000, guid: 88b9f8c575f11ef4bb331d5e47a11734, type: 2}
+  remainingPedestrian:
+    _useConstant: 0
+    _constantValue: 0
+    _variable: {fileID: 11400000, guid: fe7491f0e7bf7a64098849ba06e269bd, type: 2}
   funnessThreshold:
     _useConstant: 0
     _constantValue: 0

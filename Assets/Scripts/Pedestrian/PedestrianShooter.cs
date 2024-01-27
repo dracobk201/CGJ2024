@@ -3,10 +3,9 @@ using UnityEngine;
 
 public class PedestrianShooter : MonoBehaviour
 {
-    [SerializeField] private FloatReference pedestrianRPM;
+    [SerializeField] private BoolReference debugMode;
     [SerializeField] private GameObjectCollection pedestrians;
     private float platformWidth;
-    private float nextShot = 0;
 
     private void Start()
     {
@@ -16,17 +15,14 @@ public class PedestrianShooter : MonoBehaviour
         platformWidth = (float) widthDouble;
         transform.localScale = new Vector3(platformWidth, 0.1f, 1);
         transform.position = new Vector3(0, upperLeftScreenWorld.y+0.5f, 1);
+        if (debugMode.Value)
+        {
+            GetComponent<SpriteRenderer>().enabled = true;
+        }
     }
 
-    private void Update()
+    public void ShootPedestrian()
     {
-        ShootPedestrian();
-    }
-
-    private void ShootPedestrian()
-    {
-        if (Time.time < nextShot) return;
-        nextShot = Time.time + 60 / pedestrianRPM.Value;
         var initialRotation = transform.rotation;
 
         for (int i = 0; i < pedestrians.Count; i++)
