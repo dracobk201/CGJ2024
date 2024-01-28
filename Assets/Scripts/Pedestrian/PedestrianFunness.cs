@@ -7,6 +7,8 @@ public class PedestrianFunness : MonoBehaviour
     [SerializeField] private IntReference funnessThreshold;
     [SerializeField] private Animator pedestrianAnimator;
     [SerializeField] private BoxCollider2D pedestrianCollider;
+    [SerializeField] private AudioSource pedestrianAudioSource;
+    [SerializeField] private AudioClip[] laughs;
     private bool pedestrianHappy;
     private int currentFunness;
 
@@ -28,20 +30,36 @@ public class PedestrianFunness : MonoBehaviour
             if (currentPercentage > 0.8f)
             {
                 pedestrianAnimator.SetBool(Global.FirstChangePedestrian, true);
+                if (Random.value >= 0.3)
+                {
+                    pedestrianAudioSource.PlayOneShot(laughs[0]);
+                }
             }
             else if (currentPercentage <= 0.8f && currentPercentage >= 0.4f)
             {
                 pedestrianAnimator.SetBool(Global.FirstChangePedestrian, true);
                 pedestrianAnimator.SetBool(Global.SecondChangePedestrian, true);
+                if (Random.value >= 0.4)
+                {
+                    pedestrianAudioSource.PlayOneShot(laughs[0]);
+                }
             }
             else if (currentPercentage <= 0.4f && currentPercentage >= 0f)
             {
                 pedestrianAnimator.SetBool(Global.FirstChangePedestrian, true);
                 pedestrianAnimator.SetBool(Global.SecondChangePedestrian, true);
                 pedestrianAnimator.SetBool(Global.ThirdChangePedestrian, true);
+                if (Random.value >= 0.5)
+                {
+                    pedestrianAudioSource.PlayOneShot(laughs[0]);
+                }
             }
             else if (currentPercentage <= 0)
             {
+                if (Random.value >= 0.3)
+                {
+                    pedestrianAudioSource.PlayOneShot(laughs[Random.Range(1, laughs.Length)]);
+                }
                 pedestrianHappy = true;
                 pedestrianAnimator.SetBool(Global.ExplodePedestrian, true);
                 pedestrianCollider.enabled = false;

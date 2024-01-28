@@ -7,6 +7,9 @@ public class ClownWeapon : MonoBehaviour
     [SerializeField] private BoolReference isShooting;
     [SerializeField] private FloatReference bulletRPM;
     [SerializeField] private GameObjectCollection clownBullets;
+    [SerializeField] private AudioSource clownAudioSource;
+    [SerializeField] private AudioClip[] farts;
+
     private float nextShot = 0;
 
     private void Update()
@@ -28,8 +31,16 @@ public class ClownWeapon : MonoBehaviour
                 clownBullets[i].transform.localPosition = initialPosition;
                 clownBullets[i].transform.localRotation = initialRotation;
                 clownBullets[i].SetActive(true);
+                PlaySoundAtRandom();
                 break;
             }
         }
+    }
+
+    private void PlaySoundAtRandom()
+    {
+        int index = Random.value >= 0.5 ? 1 : 0;
+        var clip = farts[index];
+        clownAudioSource.PlayOneShot(clip);
     }
 }

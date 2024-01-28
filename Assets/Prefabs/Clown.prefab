@@ -72,7 +72,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 181201818, guid: 8979cf5ee9909914385ec23959624402, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -142,6 +142,10 @@ MonoBehaviour:
     _constantValue: 0
     _variable: {fileID: 11400000, guid: 203a2eb21ab40ca48945532b17ce6f1a, type: 2}
   clownBullets: {fileID: 11400000, guid: e6af9a4e8f3439349b525d3d29fe752e, type: 2}
+  clownAudioSource: {fileID: 2221747580797362377}
+  farts:
+  - {fileID: 8300000, guid: a22f88e79f49435479c9f6eeec648d35, type: 3}
+  - {fileID: 8300000, guid: 35d7c1a4b56bc204cbfd3633c1ec2d7e, type: 3}
 --- !u!212 &6571399592245220555
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -252,6 +256,10 @@ MonoBehaviour:
     _constantValue: 0
     _variable: {fileID: 11400000, guid: 203a2eb21ab40ca48945532b17ce6f1a, type: 2}
   clownBullets: {fileID: 11400000, guid: e6af9a4e8f3439349b525d3d29fe752e, type: 2}
+  clownAudioSource: {fileID: 2221747580797362377}
+  farts:
+  - {fileID: 8300000, guid: a22f88e79f49435479c9f6eeec648d35, type: 3}
+  - {fileID: 8300000, guid: 35d7c1a4b56bc204cbfd3633c1ec2d7e, type: 3}
 --- !u!212 &3138164395350558817
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -441,7 +449,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.5
   m_Pitch: 1
   Loop: 0
   Mute: 0

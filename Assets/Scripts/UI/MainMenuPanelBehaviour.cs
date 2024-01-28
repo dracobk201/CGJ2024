@@ -7,6 +7,8 @@ public class MainMenuPanelBehaviour : MonoBehaviour
     [SerializeField] private GameEvent beginGame;
     [SerializeField] private CanvasGroup panelCanvasGroup;
     [SerializeField] private Button beginButton;
+    [SerializeField] private AudioSource mainMenuAudioSource;
+    [SerializeField] private AudioClip[] farts;
 
     private void Start()
     {
@@ -26,12 +28,20 @@ public class MainMenuPanelBehaviour : MonoBehaviour
     public void RetryGame()
     {
         HidePanel();
+        PlaySoundAtRandom();
         beginGame.Raise();
     }
 
     public void HidePanel()
     {
         ShowHidePanel(false);
+    }
+
+    private void PlaySoundAtRandom()
+    {
+        int index = Random.value >= 0.5 ? 1 : 0;
+        var clip = farts[index];
+        mainMenuAudioSource.PlayOneShot(clip);
     }
 
     private void ShowHidePanel(bool isShowingPanel)
@@ -49,4 +59,6 @@ public class MainMenuPanelBehaviour : MonoBehaviour
             panelCanvasGroup.interactable = false;
         }
     }
+
+
 }

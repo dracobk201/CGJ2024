@@ -10,7 +10,8 @@ public class GameOverPanelBehaviour : MonoBehaviour
     [SerializeField] private TMP_Text currentWaveLabel;
     [SerializeField] private CanvasGroup panelCanvasGroup;
     [SerializeField] private Button retryButton;
-
+    [SerializeField] private AudioSource gameOverAudioSource;
+    [SerializeField] private AudioClip[] farts;
     private void Start()
     {
         currentWaveLabel.text = $"";
@@ -29,7 +30,15 @@ public class GameOverPanelBehaviour : MonoBehaviour
 
     public void RetryGame()
     {
+        PlaySoundAtRandom(); 
         SceneManager.LoadScene(0);
+    }
+
+    private void PlaySoundAtRandom()
+    {
+        int index = Random.value >= 0.5 ? 1 : 0;
+        var clip = farts[index];
+        gameOverAudioSource.PlayOneShot(clip);
     }
 
     public void ShowPanel()
