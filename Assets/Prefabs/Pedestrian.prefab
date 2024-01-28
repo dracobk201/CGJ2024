@@ -141,6 +141,7 @@ MonoBehaviour:
     _useConstant: 0
     _constantValue: 0
     _variable: {fileID: 11400000, guid: 8e58cdec009cc8b4784fa7a516a37c56, type: 2}
+  deadPedestrian: {fileID: 11400000, guid: 379321eef579c4c409f57d70a6ab4c08, type: 2}
   pedestrianAnimator: {fileID: 4498486686037832245}
   pedestrianCollider: {fileID: 4995601137853151211}
   pedestrianAudioSource: {fileID: 4529217860135395659}

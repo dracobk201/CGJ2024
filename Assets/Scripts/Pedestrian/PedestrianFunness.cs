@@ -5,6 +5,7 @@ public class PedestrianFunness : MonoBehaviour
 {
     [SerializeField] private IntReference remainingPedestrian;
     [SerializeField] private IntReference funnessThreshold;
+    [SerializeField] private GameEvent deadPedestrian;
     [SerializeField] private Animator pedestrianAnimator;
     [SerializeField] private BoxCollider2D pedestrianCollider;
     [SerializeField] private AudioSource pedestrianAudioSource;
@@ -61,6 +62,7 @@ public class PedestrianFunness : MonoBehaviour
                     pedestrianAudioSource.PlayOneShot(laughs[Random.Range(1, laughs.Length)]);
                 }
                 pedestrianHappy = true;
+                deadPedestrian.Raise();
                 pedestrianAnimator.SetBool(Global.ExplodePedestrian, true);
                 pedestrianCollider.enabled = false;
                 remainingPedestrian.Value = Mathf.Clamp(remainingPedestrian.Value - 1, 0, 9999);
