@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 6fba8c6f4031a864ab7f29a223abe92f
+guid: f6d22e0cc071cd24bac54a33ae9da373
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -43,7 +43,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -134,7 +134,133 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: trafficLights._spritesheetpng_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 21
+        width: 164
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aefe28675ffaeb04da9ee854357b031b
+      internalID: -1249338851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trafficLights._spritesheetpng_1
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 21
+        width: 164
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ef0050f131bd1145b1cf5ad0152a51d
+      internalID: 2066413599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trafficLights._spritesheetpng_2
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 21
+        width: 164
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82c6961cdc0ab2e4d8b2275155107302
+      internalID: 1459985353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trafficLights._spritesheetpng_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 164
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 225f80135d01ace44a88cc277252e6c7
+      internalID: 754354044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trafficLights._spritesheetpng_4
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 0
+        width: 164
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82987f3970a0d3046839de9dcbae9c12
+      internalID: -1948795331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trafficLights._spritesheetpng_5
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 0
+        width: 164
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 315d4c17f0f75324fb7326caad422871
+      internalID: 1264092705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -145,7 +271,13 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      trafficLights._spritesheetpng_0: -1249338851
+      trafficLights._spritesheetpng_1: 2066413599
+      trafficLights._spritesheetpng_2: 1459985353
+      trafficLights._spritesheetpng_3: 754354044
+      trafficLights._spritesheetpng_4: -1948795331
+      trafficLights._spritesheetpng_5: 1264092705
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
