@@ -46,7 +46,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 199554334407977893}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e85be2bf9ecc10b4387223fae76539e9, type: 3}
+  m_Script: {fileID: 11500000, guid: 36f8e40eeda1b3d40b4c325e7562b03f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   currentWave:
@@ -123,8 +123,8 @@ MonoBehaviour:
 
     XXX'
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: fdc55ba6408aa2d41a541cffeab87ecc, type: 2}
-  m_sharedMaterial: {fileID: 835603694770348576, guid: fdc55ba6408aa2d41a541cffeab87ecc, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 85c10a35df15ea047a9b165addbc9122, type: 2}
+  m_sharedMaterial: {fileID: 835603694770348576, guid: 85c10a35df15ea047a9b165addbc9122, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []

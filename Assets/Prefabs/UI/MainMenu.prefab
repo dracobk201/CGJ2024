@@ -10,8 +10,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1525293029681300520}
   - component: {fileID: 5121222729217998587}
-  - component: {fileID: 8010812684262322563}
-  - component: {fileID: 7301911954977685666}
   m_Layer: 5
   m_Name: MainMenu Container
   m_TagString: Untagged
@@ -54,44 +52,6 @@ CanvasGroup:
   m_Interactable: 1
   m_BlocksRaycasts: 1
   m_IgnoreParentGroups: 0
---- !u!222 &8010812684262322563
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 599676300477784065}
-  m_CullTransparentMesh: 1
---- !u!114 &7301911954977685666
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 599676300477784065}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 7b07f8eab85e2a84b8817b3d5c125546, type: 3}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
 --- !u!1 &1492437799834966847
 GameObject:
   m_ObjectHideFlags: 0
@@ -159,7 +119,7 @@ MonoBehaviour:
       m_Calls: []
   m_Sprite: {fileID: 21300000, guid: 8b41373f75617ac43bb97b2984627361, type: 3}
   m_Type: 0
-  m_PreserveAspect: 0
+  m_PreserveAspect: 1
   m_FillCenter: 1
   m_FillMethod: 4
   m_FillAmount: 1
@@ -234,8 +194,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Don't let sadness run...
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: fdc55ba6408aa2d41a541cffeab87ecc, type: 2}
-  m_sharedMaterial: {fileID: 835603694770348576, guid: fdc55ba6408aa2d41a541cffeab87ecc, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 85c10a35df15ea047a9b165addbc9122, type: 2}
+  m_sharedMaterial: {fileID: 835603694770348576, guid: 85c10a35df15ea047a9b165addbc9122, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -259,7 +219,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 46.45
+  m_fontSize: 58.35
   m_fontSizeBase: 80
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -336,7 +296,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 1, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -310}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: -284, y: 300}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &3120867846381801135
@@ -369,8 +329,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Drag the clown to spread happiness!
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: fdc55ba6408aa2d41a541cffeab87ecc, type: 2}
-  m_sharedMaterial: {fileID: 835603694770348576, guid: fdc55ba6408aa2d41a541cffeab87ecc, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 85c10a35df15ea047a9b165addbc9122, type: 2}
+  m_sharedMaterial: {fileID: 835603694770348576, guid: 85c10a35df15ea047a9b165addbc9122, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -394,7 +354,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 69.95
+  m_fontSize: 72
   m_fontSizeBase: 100
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -472,8 +432,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: 0, y: 388.49048}
-  m_SizeDelta: {x: -358.8899, y: 231.8328}
+  m_AnchoredPosition: {x: 0, y: 481}
+  m_SizeDelta: {x: -358.8899, y: 356.2273}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &2663935566405159622
 CanvasRenderer:
@@ -503,9 +463,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 398456719, guid: f6791cca46294614f98c057447a76a9e, type: 3}
+  m_Sprite: {fileID: 1642057809, guid: 8fa76ace3efdc6e40befe0d52e702970, type: 3}
   m_Type: 0
-  m_PreserveAspect: 0
+  m_PreserveAspect: 1
   m_FillCenter: 1
   m_FillMethod: 4
   m_FillAmount: 1
@@ -624,7 +584,7 @@ MonoBehaviour:
       m_Calls: []
   m_Sprite: {fileID: 21300000, guid: ef728a15f7ab8ec48926ab95504578ad, type: 3}
   m_Type: 0
-  m_PreserveAspect: 0
+  m_PreserveAspect: 1
   m_FillCenter: 1
   m_FillMethod: 4
   m_FillAmount: 1
@@ -697,10 +657,12 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Start Laughing
+  m_text: 'Start
+
+    Laughing'
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: fdc55ba6408aa2d41a541cffeab87ecc, type: 2}
-  m_sharedMaterial: {fileID: 835603694770348576, guid: fdc55ba6408aa2d41a541cffeab87ecc, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 85c10a35df15ea047a9b165addbc9122, type: 2}
+  m_sharedMaterial: {fileID: 835603694770348576, guid: 85c10a35df15ea047a9b165addbc9122, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -812,9 +774,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 7665922912208164142}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 94d3c632aac624f4baf71327f9645e0f, type: 3}
+  m_Script: {fileID: 11500000, guid: 00ebba213d3a66a4999f8a25388e8eb1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  beginGame: {fileID: 11400000, guid: b9de0b8f7cb57414c849293ca3bb99bd, type: 2}
+  beginGame: {fileID: 11400000, guid: f9f73f7f1d1af6745b147d87bf196e18, type: 2}
   panelCanvasGroup: {fileID: 5121222729217998587}
   beginButton: {fileID: 4707780238213569081}

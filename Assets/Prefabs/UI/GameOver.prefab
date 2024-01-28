@@ -36,9 +36,9 @@ RectTransform:
   m_Father: {fileID: 1471740800575019466}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: -1025}
-  m_SizeDelta: {x: -739.8236, y: -2459.6592}
+  m_AnchorMax: {x: 1, y: 0}
+  m_AnchoredPosition: {x: 0, y: 279.5935}
+  m_SizeDelta: {x: -665.3184, y: 262.17236}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &2872653311273855210
 CanvasRenderer:
@@ -68,9 +68,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 398456719, guid: f6791cca46294614f98c057447a76a9e, type: 3}
+  m_Sprite: {fileID: 1642057809, guid: 8fa76ace3efdc6e40befe0d52e702970, type: 3}
   m_Type: 0
-  m_PreserveAspect: 0
+  m_PreserveAspect: 1
   m_FillCenter: 1
   m_FillMethod: 4
   m_FillAmount: 1
@@ -210,8 +210,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Max Wave
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 85c10a35df15ea047a9b165addbc9122, type: 2}
+  m_sharedMaterial: {fileID: 835603694770348576, guid: 85c10a35df15ea047a9b165addbc9122, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -342,10 +342,12 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Laugh again?
+  m_text: 'Laugh
+
+    again?'
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: fdc55ba6408aa2d41a541cffeab87ecc, type: 2}
-  m_sharedMaterial: {fileID: 835603694770348576, guid: fdc55ba6408aa2d41a541cffeab87ecc, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 85c10a35df15ea047a9b165addbc9122, type: 2}
+  m_sharedMaterial: {fileID: 835603694770348576, guid: 85c10a35df15ea047a9b165addbc9122, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -369,7 +371,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 18
+  m_fontSize: 72
   m_fontSizeBase: 60
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -478,8 +480,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: XXX
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 85c10a35df15ea047a9b165addbc9122, type: 2}
+  m_sharedMaterial: {fileID: 835603694770348576, guid: 85c10a35df15ea047a9b165addbc9122, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -654,14 +656,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 6773026719721626398}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8dbe5ae3e6cf85c4cb8995fb3616ebca, type: 3}
+  m_Script: {fileID: 11500000, guid: f89d3edcd7c07e74aaf11ca9fa6db100, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   currentWave:
     _useConstant: 0
     _constantValue: 0
     _variable: {fileID: 11400000, guid: 77e82aee5d65263459827234e498df21, type: 2}
-  currentWaveLabel: {fileID: 5889371743010887097}
+  currentWaveLabel: {fileID: 3965553465276499989}
   panelCanvasGroup: {fileID: 5954167442140649322}
   retryButton: {fileID: 7419377767194057801}
 --- !u!114 &2371329905293770039
@@ -680,7 +682,7 @@ MonoBehaviour:
   _enableGizmoDebugging: 1
   _debugColor: {r: 0, g: 1, b: 1, a: 1}
   _previouslyRegisteredEvent: {fileID: 11400000, guid: 03d084dd5ce765f4d8895ab2367fb989, type: 2}
-  _event: {fileID: 11400000, guid: b9de0b8f7cb57414c849293ca3bb99bd, type: 2}
+  _event: {fileID: 11400000, guid: 03d084dd5ce765f4d8895ab2367fb989, type: 2}
   _response:
     m_PersistentCalls:
       m_Calls:
@@ -763,8 +765,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: The Sadness Continues...
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 85c10a35df15ea047a9b165addbc9122, type: 2}
+  m_sharedMaterial: {fileID: 835603694770348576, guid: 85c10a35df15ea047a9b165addbc9122, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -788,8 +790,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 150
-  m_fontSizeBase: 150
+  m_fontSize: 90
+  m_fontSizeBase: 90
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
