@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class PedestrianBehaviour : MonoBehaviour
 {
+    [SerializeField] private BoolReference isGameOver;
     [SerializeField] private FloatReference pedestrianMinVelocity;
     [SerializeField] private FloatReference pedestrianMaxVelocity;
     [SerializeField] private FloatReference pedestrianTimeOfLife;
@@ -17,7 +18,10 @@ public class PedestrianBehaviour : MonoBehaviour
 
     private void Update()
     {
-        transform.position += pedestrianVelocity * Time.deltaTime * -transform.up;
+        if (!isGameOver.Value)
+        {
+            transform.position += pedestrianVelocity * Time.deltaTime * -transform.up;
+        }
     }
 
     private void Destroy()

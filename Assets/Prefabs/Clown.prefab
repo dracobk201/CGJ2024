@@ -345,6 +345,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ef5b39026b742724e88b06cf84b52426, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isGameOver:
+    _useConstant: 0
+    _constantValue: 0
+    _variable: {fileID: 11400000, guid: 0b5c80fdfca1d4148a931d4f2f05bac6, type: 2}
   movement:
     _useConstant: 0
     _constantValue: {x: 0, y: 0}

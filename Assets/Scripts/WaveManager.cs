@@ -6,6 +6,7 @@ using UnityEngine;
 
 public class WaveManager : MonoBehaviour
 {
+    [SerializeField] private BoolReference isGameOver;
     [SerializeField] private IntReference currentWave;
     [SerializeField] private IntReference initialPedestrianToSend;
     [SerializeField] private FloatReference pedestrianStepToSend;
@@ -24,6 +25,7 @@ public class WaveManager : MonoBehaviour
 
     private void Update()
     {
+        if (isGameOver.Value) return;
         if (remainingPedestrian.Value <= 0)
         {
             ChangeWave();

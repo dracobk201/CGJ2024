@@ -72,7 +72,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: -5202297, guid: 11f4aaef222c03b4c801e9a5fb4070d7, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -132,10 +132,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 00e143b1ba55f864da046e690ccbf007, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  debugMode:
-    _useConstant: 0
-    _constantValue: 0
-    _variable: {fileID: 11400000, guid: 88b9f8c575f11ef4bb331d5e47a11734, type: 2}
   remainingPedestrian:
     _useConstant: 0
     _constantValue: 0
@@ -144,7 +140,6 @@ MonoBehaviour:
     _useConstant: 0
     _constantValue: 0
     _variable: {fileID: 11400000, guid: 8e58cdec009cc8b4784fa7a516a37c56, type: 2}
-  pedestrianSpriteRenderer: {fileID: 2708930346533012801}
   pedestrianAnimator: {fileID: 4498486686037832245}
   pedestrianCollider: {fileID: 4995601137853151211}
 --- !u!114 &3567670491283315028
@@ -159,6 +154,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 224dc2186e8f8e84c98da1df5c09ef2f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isGameOver:
+    _useConstant: 0
+    _constantValue: 0
+    _variable: {fileID: 0}
   pedestrianMinVelocity:
     _useConstant: 0
     _constantValue: 0

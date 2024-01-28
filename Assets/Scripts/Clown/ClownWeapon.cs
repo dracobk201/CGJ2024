@@ -3,6 +3,7 @@ using UnityEngine;
 
 public class ClownWeapon : MonoBehaviour
 {
+    [SerializeField] private BoolReference isGameOver;
     [SerializeField] private BoolReference isShooting;
     [SerializeField] private FloatReference bulletRPM;
     [SerializeField] private GameObjectCollection clownBullets;
@@ -15,7 +16,7 @@ public class ClownWeapon : MonoBehaviour
 
     private void ShootBullet()
     {
-        if (!isShooting.Value || Time.time < nextShot) return;
+        if (!isShooting.Value || Time.time < nextShot || isGameOver.Value) return;
         nextShot = Time.time + 60 / bulletRPM.Value;
         var initialPosition = transform.position;
         var initialRotation = transform.rotation;

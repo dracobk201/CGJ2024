@@ -14,7 +14,7 @@ public class PedestrianShooter : MonoBehaviour
         Vector3 upperLeftScreenWorld = mainCam.ViewportToWorldPoint(new Vector3(0, 1f, 0f));
         platformWidth = (float) widthDouble;
         transform.localScale = new Vector3(platformWidth, 0.1f, 1);
-        transform.position = new Vector3(0, upperLeftScreenWorld.y+0.5f, 1);
+        transform.position = new Vector3(0, upperLeftScreenWorld.y+0.3f, 1);
         if (debugMode.Value)
         {
             GetComponent<SpriteRenderer>().enabled = true;
