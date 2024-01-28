@@ -157,7 +157,7 @@ MonoBehaviour:
   isGameOver:
     _useConstant: 0
     _constantValue: 0
-    _variable: {fileID: 0}
+    _variable: {fileID: 11400000, guid: 0b5c80fdfca1d4148a931d4f2f05bac6, type: 2}
   pedestrianMinVelocity:
     _useConstant: 0
     _constantValue: 0

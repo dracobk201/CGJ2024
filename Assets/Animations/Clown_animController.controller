@@ -9,7 +9,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 2
-    m_ConditionEvent: isRigth
+    m_ConditionEvent: isRight
     m_EventTreshold: 0
   - m_ConditionMode: 2
     m_ConditionEvent: isLeft
@@ -37,7 +37,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
-    m_ConditionEvent: isRigth
+    m_ConditionEvent: isRight
     m_EventTreshold: 0
   - m_ConditionMode: 2
     m_ConditionEvent: isLeft
@@ -93,7 +93,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 2
-    m_ConditionEvent: isRigth
+    m_ConditionEvent: isRight
     m_EventTreshold: 0
   - m_ConditionMode: 2
     m_ConditionEvent: isLeft
@@ -121,7 +121,7 @@ AnimatorController:
   m_Name: Clown_animController
   serializedVersion: 5
   m_AnimatorParameters:
-  - m_Name: isRigth
+  - m_Name: isRight
     m_Type: 4
     m_DefaultFloat: 0
     m_DefaultInt: 0
@@ -155,7 +155,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 2
-    m_ConditionEvent: isRigth
+    m_ConditionEvent: isRight
     m_EventTreshold: 0
   - m_ConditionMode: 1
     m_ConditionEvent: isLeft
@@ -186,7 +186,7 @@ AnimatorStateTransition:
     m_ConditionEvent: isLeft
     m_EventTreshold: 0
   - m_ConditionMode: 2
-    m_ConditionEvent: isRigth
+    m_ConditionEvent: isRight
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 2940987046898393377}
@@ -267,7 +267,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
-    m_ConditionEvent: isRigth
+    m_ConditionEvent: isRight
     m_EventTreshold: 0
   - m_ConditionMode: 2
     m_ConditionEvent: isLeft

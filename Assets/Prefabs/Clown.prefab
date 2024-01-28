@@ -129,6 +129,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3a99a3e2ace77a64aa575d58311e8079, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isGameOver:
+    _useConstant: 0
+    _constantValue: 0
+    _variable: {fileID: 11400000, guid: 0b5c80fdfca1d4148a931d4f2f05bac6, type: 2}
   isShooting:
     _useConstant: 0
     _constantValue: 0
@@ -235,6 +239,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3a99a3e2ace77a64aa575d58311e8079, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isGameOver:
+    _useConstant: 0
+    _constantValue: 0
+    _variable: {fileID: 11400000, guid: 0b5c80fdfca1d4148a931d4f2f05bac6, type: 2}
   isShooting:
     _useConstant: 0
     _constantValue: 0
@@ -353,6 +361,7 @@ MonoBehaviour:
     _useConstant: 0
     _constantValue: {x: 0, y: 0}
     _variable: {fileID: 11400000, guid: eb3d02ff69a04e444a53b898ede001e0, type: 2}
+  clownAnimator: {fileID: 7638294670833395860}
 --- !u!61 &6966777758138050268
 BoxCollider2D:
   m_ObjectHideFlags: 0

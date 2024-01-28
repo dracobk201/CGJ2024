@@ -7,9 +7,11 @@ public class Global
     #endregion
 
     #region Animations
-    public const string FirstStatePedestrian = "First State";
-    public const string SecondStatePedestrian = "Second State";
-    public const string ThirdStatePedestrian = "Third State";
+    public const string FirstChangePedestrian = "First State";
+    public const string SecondChangePedestrian = "Second State";
+    public const string ThirdChangePedestrian = "Third State";
     public const string ExplodePedestrian = "Explode State";
+    public const string LeftClown = "isLeft";
+    public const string RightClown = "isRight";
     #endregion
 }
