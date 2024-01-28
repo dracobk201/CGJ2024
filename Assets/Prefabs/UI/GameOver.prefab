@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 2872653311273855210}
   - component: {fileID: 4737053406573010342}
   - component: {fileID: 7419377767194057801}
-  - component: {fileID: 2697181047643121368}
+  - component: {fileID: 3754354851219875152}
   m_Layer: 5
   m_Name: Retry Button
   m_TagString: Untagged
@@ -97,7 +97,7 @@ MonoBehaviour:
     m_SelectOnDown: {fileID: 0}
     m_SelectOnLeft: {fileID: 0}
     m_SelectOnRight: {fileID: 0}
-  m_Transition: 3
+  m_Transition: 1
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
@@ -122,7 +122,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
---- !u!95 &2697181047643121368
+--- !u!95 &3754354851219875152
 Animator:
   serializedVersion: 5
   m_ObjectHideFlags: 0
@@ -132,7 +132,7 @@ Animator:
   m_GameObject: {fileID: 433197963014805232}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 7d7f9b737aed5dc49aeac25a65492fdb, type: 2}
+  m_Controller: {fileID: 9100000, guid: 12110a315e2cc2e4b9b88db3e0f97507, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
